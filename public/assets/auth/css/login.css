@@ -1,0 +1,97 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .login-container {
+    position: relative;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1500x1000') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative; /* Add this line */
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .form-group input {
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 0;
+    transition: border-bottom-color 0.3s ease;
+    width: 100%;
+  }
+
+  .form-group input:focus {
+    outline: none;
+    border-bottom-color: #007bff;
+  }
+
+  .btn-login {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+
+  .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999999;
+  }
+
+  .forgot-password:hover {
+    color: #555555;
+  }
+
+  .already-account {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999999;
+  }
+
+  .already-account a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .already-account a:hover {
+    text-decoration: underline;
+  }
+
+  .logo {
+    position: absolute;
+    top: -50px; /* Adjust this value as needed */
+    left: calc(50% - 50px); /* Center the logo horizontally */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Add drop shadow */
+  }
