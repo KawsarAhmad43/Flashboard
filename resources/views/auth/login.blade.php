@@ -11,7 +11,8 @@
 <body>
   <div class="login-container">
     <div class="login-form">
-      <img src="https://via.placeholder.com/100x100" alt="Logo" class="logo">
+      
+      <img src="{{ asset('assets/auth/images/logo.png') }}" alt="Logo" class="logo">
       <h2 class="text-center mb-4 mt-2">Login</h2>
       <form>
         <div class="form-group">

@@ -40,6 +40,6 @@ Route::get('/', function () {
 Route::get('/admin', [Controller::class, 'admin'])->name('admin');
 
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
