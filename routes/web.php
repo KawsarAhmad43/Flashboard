@@ -35,7 +35,7 @@ Route::group(['prefix' => 'password'], function () {
 // Default Route
 Route::get('/', function () {
     return view('auth.login');
-});
+})->name('login');
 
 Route::get('/admin', [Controller::class, 'admin'])->name('admin');
 

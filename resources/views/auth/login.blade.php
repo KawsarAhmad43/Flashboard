@@ -28,7 +28,7 @@
           <a href="#">Forgot Password?</a>
         </div>
         <div class="already-account">
-          Don't have an account? <a href="#">Sign up</a>
+          Don't have an account? <a href="{{ route('register') }}">Sign up</a>
         </div>
       </form>
     </div>
